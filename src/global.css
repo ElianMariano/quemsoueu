@@ -1,0 +1,19 @@
+:root {
+  --color-background: rgb(233, 233, 233);
+  --color-footer: #EDEDED;
+  --color-primary: #0097D8;
+  --color-secondary: #0980B4;
+  --color-dark-blue: #003d57;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border-radius: border-box;
+}
+
+body {
+  background-color: var(--color-background);
+}
