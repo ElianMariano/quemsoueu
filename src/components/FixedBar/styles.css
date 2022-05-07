@@ -6,6 +6,7 @@
     --fixed-bar-x-axis: 0vw;
     --fixed-bar-skew: skew(-8deg);
     --fixed-bar-opacity: 1;
+    --fixed-bar-text-opacity: 1;
 }
 
 .fixed-bar > img {
@@ -51,6 +52,7 @@
     font-weight: bold;
     font-size: 1.2em;
     color: white;
+    opacity: var(--fixed-bar-text-opacity);
 }
 
 .fixed-bar > .main-text > p {
@@ -58,6 +60,7 @@
     font-weight: bold;
     font-size: 1em;
     color: white;
+    opacity: var(--fixed-bar-text-opacity);
 }
 
 .fixed-bar > .main-text > p > strong {

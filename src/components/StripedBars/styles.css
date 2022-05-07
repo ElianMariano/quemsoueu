@@ -4,6 +4,7 @@
     overflow: hidden;
     --striped-bars-x-axis: 0vw;
     --striped-bars-opacity: 1;
+    --striped-bars-text-opacity: 1;
     --striped-bars-skew: skew(-8deg);
     --striped-bars-width: 5vw;
 }
@@ -33,9 +34,9 @@
 
 .striped-bars > div.main-text {
     position: absolute;
-    top: 10vh;
+    top: 8vh;
     right: calc(var(--striped-bars-x-axis) + 5vw);
-    width: 30vw;
+    width: 35vw;
 }
 
 .striped-bars > div.main-text > h4 {
@@ -44,18 +45,19 @@
     font-weight: bold;
     font-size: 1.2em;
     color: white;
+    opacity: var(--striped-bars-text-opacity);
 }
 
 .striped-bars > div.main-text > p {
     font-family: 'Cambay', Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.05em;
     color: white;
+    opacity: var(--striped-bars-text-opacity);
 }
 
 .striped-bars > div.main-text > p > strong {
     color: var(--color-dark-blue);
-    font-size: 1.05em;
 }
 
 .striped-bars > div.stripe1 {
@@ -63,43 +65,43 @@
 }
 
 .striped-bars > div.stripe2 {
-    right: calc(var(--striped-bars-x-axis) + 5vw);
+    right: calc(var(--striped-bars-x-axis) + var(--striped-bars-width)*1);
 }
 
 .striped-bars > div.stripe3 {
-    right: calc(var(--striped-bars-x-axis) + 10vw);
+    right: calc(var(--striped-bars-x-axis) + var(--striped-bars-width)*2);
 }
 
 .striped-bars > div.stripe4 {
-    right: calc(var(--striped-bars-x-axis) + 15vw);
+    right: calc(var(--striped-bars-x-axis) + var(--striped-bars-width)*3);
 }
 
 .striped-bars > div.stripe5 {
-    right: calc(var(--striped-bars-x-axis) + 20vw);
+    right: calc(var(--striped-bars-x-axis) + var(--striped-bars-width)*4);
 }
 
 .striped-bars > div.stripe6 {
-    right: calc(var(--striped-bars-x-axis) + 25vw);
+    right: calc(var(--striped-bars-x-axis) + var(--striped-bars-width)*5);
 }
 
 .striped-bars > div.stripe7 {
-    right: calc(var(--striped-bars-x-axis) + 30vw);
+    right: calc(var(--striped-bars-x-axis) + var(--striped-bars-width)*6);
 }
 
 .striped-bars > div.stripe8 {
-    right: calc(var(--striped-bars-x-axis) + 35vw);
+    right: calc(var(--striped-bars-x-axis) + var(--striped-bars-width)*7);
 }
 
 .striped-bars > div.stripe9 {
-    right: calc(var(--striped-bars-x-axis) + 40vw);
+    right: calc(var(--striped-bars-x-axis) + var(--striped-bars-width)*8);
 }
 
 .striped-bars > div.stripe10 {
-    right: calc(var(--striped-bars-x-axis) + 45vw);
+    right: calc(var(--striped-bars-x-axis) + var(--striped-bars-width)*9);
 }
 
 .striped-bars > div.stripe11 {
-    right: calc(var(--striped-bars-x-axis) + 50vw);
+    right: calc(var(--striped-bars-x-axis) + var(--striped-bars-width)*10);
 }
 
 .striped-bars > div.stripe1{
