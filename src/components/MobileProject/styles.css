@@ -1,0 +1,70 @@
+div.mobile-project {
+    height: 60vh;
+    position: relative;
+    --mobile-project-rotation-degree: 16deg; /*Default value: 16deg*/
+    --mobile-project-x-distance: 0vw; /*Default value: 0vw*/
+}
+
+div.mobile-project > img {
+    width: 20vw;
+    position: absolute;
+    margin: 2vh 3vw;
+    padding: 0;
+}
+
+div.mobile-project > img:first-child {
+    left: calc(0vw - var(--mobile-project-x-distance));
+    transform: rotate(calc(var(--mobile-project-rotation-degree) * -1));
+}
+
+div.mobile-project > img:nth-child(2) {
+    left: calc(var(--mobile-project-x-distance) + 22vw);
+    transform: rotate(var(--mobile-project-rotation-degree));
+    /* left: 11vw;
+    transform: rotate(0deg);
+    animation-name: phone;
+    animation-duration: 2s; */
+}
+
+div.mobile-project > img:nth-child(3) {
+    left: 11vw;
+}
+
+div.mobile-project > div.description {
+    float: right;
+    width: 45vw;
+    margin: 4vh 4vw;
+}
+
+div.mobile-project > div.description > h2 {
+    font-family: 'Cambay', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin: 0;
+    opacity: var(--floating-bat-text-opacity);
+}
+
+div.mobile-project > div.description > p {
+    font-family: 'Cambay', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #6A6A6A;
+    opacity: var(--floating-bat-text-opacity);
+}
+
+div.mobile-project > div.description > p > strong {
+    color: black;
+}
+
+/* @keyframes phone {
+    from {
+        left: 11vw;
+        transform: rotate(0deg);
+    }
+  
+    to {
+        left: 22vw;
+        transform: rotate(16deg);
+    }
+} */
