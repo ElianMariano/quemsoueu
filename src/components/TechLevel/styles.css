@@ -1,0 +1,37 @@
+div.tech-container {
+    position: relative;
+    padding: 1vh 2vw;
+    width: fit-content;
+    display: inline-block;
+    /* border: 1px solid black; */
+}
+
+div.tech-container > img {
+    height: 12vh;
+    margin: 0;
+    padding: 0;
+    margin-left: 1vw;
+    transition: 1s;
+}
+
+div.tech-container > h3.level {
+    position: absolute;
+    margin: 0;
+    font-family: 'Cambay', Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: rgb(41, 41, 41);
+    visibility: hidden;
+    transition: 0.5s;
+    justify-content: center;
+    top: 4vh;
+}
+
+div.tech-container > img:hover {
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+div.tech-container:hover > h3.level {
+    visibility: visible;
+    transition: 1s;
+}

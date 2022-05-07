@@ -5,6 +5,7 @@
     --floating-bar-skew: skew(-12deg);
     --floating-bar-x-axis: 0vw;
     --floating-bar-opacity: 0.9;
+    --floating-bat-text-opacity: 1;
 }
 
 .floating-bar > img {
@@ -47,6 +48,7 @@
     font-size: 1.2em;
     color: white;
     margin: 0;
+    opacity: var(--floating-bat-text-opacity);
 }
 
 .floating-bar > .main-text > p {
@@ -54,6 +56,7 @@
     font-weight: bold;
     font-size: 1em;
     color: white;
+    opacity: var(--floating-bat-text-opacity);
 }
 
 .floating-bar > .main-text > p > strong {
