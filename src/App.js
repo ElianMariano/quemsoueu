@@ -4,6 +4,7 @@ import './global.css';
 import PageDefault from './components/PageDefault';
 import FloatingBar from './components/FloatingBar';
 import FixedBar from './components/FixedBar';
+import StripedBars from './components/StripedBars';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <PageDefault>
         <FloatingBar/>
         <FixedBar/>
+        <StripedBars/>
       </PageDefault>
     </>
   );

@@ -1,0 +1,108 @@
+.striped-bars {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    --striped-bars-x-axis: 0vw;
+    --striped-bars-opacity: 1;
+    --striped-bars-skew: skew(-8deg);
+    --striped-bars-width: 5vw;
+}
+
+.striped-bars > img {
+    height: 70vh;
+}
+
+.striped-bars > div:not(:last-child) {
+    width: var(--striped-bars-width);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    /* left: -7vw; */
+    opacity: var(--striped-bars-opacity);
+    transform: var(--striped-bars-skew);
+}
+
+.striped-bars > div:nth-child(even):not(.main-text){
+    background-color: var(--color-secondary);
+    box-shadow: 0.5vw 0vh 1em var(--color-shadow-blue);
+}
+
+.striped-bars > div:nth-child(odd):not(.main-text){
+    background-color: var(--color-primary);
+}
+
+.striped-bars > div.main-text {
+    position: absolute;
+    top: 10vh;
+    right: calc(var(--striped-bars-x-axis) + 5vw);
+    width: 30vw;
+}
+
+.striped-bars > div.main-text > h4 {
+    margin: 0;
+    font-family: 'Cambay', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: white;
+}
+
+.striped-bars > div.main-text > p {
+    font-family: 'Cambay', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+}
+
+.striped-bars > div.main-text > p > strong {
+    color: var(--color-dark-blue);
+    font-size: 1.05em;
+}
+
+.striped-bars > div.stripe1 {
+    right: var(--striped-bars-x-axis);
+}
+
+.striped-bars > div.stripe2 {
+    right: calc(var(--striped-bars-x-axis) + 5vw);
+}
+
+.striped-bars > div.stripe3 {
+    right: calc(var(--striped-bars-x-axis) + 10vw);
+}
+
+.striped-bars > div.stripe4 {
+    right: calc(var(--striped-bars-x-axis) + 15vw);
+}
+
+.striped-bars > div.stripe5 {
+    right: calc(var(--striped-bars-x-axis) + 20vw);
+}
+
+.striped-bars > div.stripe6 {
+    right: calc(var(--striped-bars-x-axis) + 25vw);
+}
+
+.striped-bars > div.stripe7 {
+    right: calc(var(--striped-bars-x-axis) + 30vw);
+}
+
+.striped-bars > div.stripe8 {
+    right: calc(var(--striped-bars-x-axis) + 35vw);
+}
+
+.striped-bars > div.stripe9 {
+    right: calc(var(--striped-bars-x-axis) + 40vw);
+}
+
+.striped-bars > div.stripe10 {
+    right: calc(var(--striped-bars-x-axis) + 45vw);
+}
+
+.striped-bars > div.stripe11 {
+    right: calc(var(--striped-bars-x-axis) + 50vw);
+}
+
+.striped-bars > div.stripe1{
+    width: calc(var(--striped-bars-width)*2);
+    right: calc(var(--striped-bars-x-axis) - var(--striped-bars-width));
+}
