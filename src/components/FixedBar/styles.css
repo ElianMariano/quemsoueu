@@ -1,0 +1,65 @@
+.fixed-bar {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    --fixed-bar-x-axis: 0vw;
+    --fixed-bar-skew: skew(-8deg);
+    --fixed-bar-opacity: 1;
+}
+
+.fixed-bar > img {
+    height: 60vh;
+    float: right;
+}
+
+.fixed-bar > .main-bar {
+    width: 45vw;
+    height: 100%;
+    background-color: var(--color-primary);
+    position: absolute;
+    top: 0;
+    left: calc(var(--fixed-bar-x-axis) - 7vw);
+    opacity: var(--fixed-bar-opacity);
+    transform: var(--fixed-bar-skew);
+}
+
+.fixed-bar > .main-bar + .bar {
+    width: 5vw;
+    height: 100%;
+    background-color: var(--color-secondary);
+    position: absolute;
+    top: 0;
+    left: calc(var(--fixed-bar-x-axis) + 38vw);
+    opacity: var(--fixed-bar-opacity);
+    transform: var(--fixed-bar-skew);
+    box-shadow: -2vw 1vh 5em var(--color-dark-blue);
+}
+
+.fixed-bar > .main-text {
+    position: absolute;
+    font-size: 1em;
+    top: 6vh;
+    left: 0;
+    width: 30vw;
+    padding: 4vh 4vw;
+}
+
+.fixed-bar > .main-text > h4 {
+    margin: 0;
+    font-family: 'Cambay', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: white;
+}
+
+.fixed-bar > .main-text > p {
+    font-family: 'Cambay', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+}
+
+.fixed-bar > .main-text > p > strong {
+    color: var(--color-dark-blue);
+}
