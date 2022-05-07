@@ -9,10 +9,10 @@ function Footer(){
         <footer>
             <div>
                 <p>Redes Sociais</p>
-                <a href="https://www.linkedin.com/in/elian-mariano-gabriel/">
+                <a href="https://www.linkedin.com/in/elian-mariano-gabriel/" target="_blank" rel="noopener noreferrer">
                     <img className='linkedin' src={linkedin} alt="Meu Perfil do LinkedIn" />
                 </a>
-                <a href="https://github.com/ElianMariano">
+                <a href="https://github.com/ElianMariano" target="_blank" rel="noopener noreferrer">
                     <img className='github' src={github} alt="Meu Perfil no GitHub" />
                 </a>
             </div>

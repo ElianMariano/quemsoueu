@@ -1,0 +1,61 @@
+.floating-bar {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    --floating-bar-skew: skew(-12deg);
+    --floating-bar-x-axis: 0vw;
+    --floating-bar-opacity: 0.9;
+}
+
+.floating-bar > img {
+    height: 70vh;
+}
+
+.floating-bar > .main-bar {
+    width: 40vw;
+    height: 100%;
+    background-color: var(--color-primary);
+    position: absolute;
+    top: 0;
+    right: calc(var(--floating-bar-x-axis) - 7vw);
+    opacity: var(--floating-bar-opacity);
+    transform: var(--floating-bar-skew);
+}
+
+.floating-bar > .main-bar + .bar {
+    width: 5vw;
+    height: 100%;
+    background-color: var(--color-secondary);
+    position: absolute;
+    top: 0;
+    right: calc(var(--floating-bar-x-axis) + 34vw);;
+    opacity: var(--floating-bar-opacity);
+    transform: var(--floating-bar-skew);
+}
+
+.floating-bar > .main-text {
+    position: absolute;
+    font-size: 1em;
+    top: 24vh;
+    right: 0;
+    width: 30vw;
+}
+
+.floating-bar > .main-text > h4 {
+    font-family: 'Cambay', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: white;
+    margin: 0;
+}
+
+.floating-bar > .main-text > p {
+    font-family: 'Cambay', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+}
+
+.floating-bar > .main-text > p > strong {
+    color: var(--color-dark-blue);
+}

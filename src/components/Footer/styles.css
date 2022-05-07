@@ -1,11 +1,11 @@
 footer {
     background-color: var(--color-footer);
-    width: 100%;
+    width: calc(100% - 40px);
     height: 15vh;
     margin: 0;
     padding: 20px;
-    position: fixed;
-    bottom: 0;
+    /* position: fixed;
+    bottom: 0; */
 }
 
 footer > div {

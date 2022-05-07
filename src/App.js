@@ -1,15 +1,17 @@
 import React from 'react';
 import './global.css';
 
-import Header from './components/Header'
-import Footer from './components/Footer'
+import PageDefault from './components/PageDefault';
+import FloatingBar from './components/FloatingBar';
+import FixedBar from './components/FixedBar';
 
 function App() {
   return (
     <>
-      <Header/>
-
-      <Footer/>
+      <PageDefault>
+        <FloatingBar/>
+        <FixedBar/>
+      </PageDefault>
     </>
   );
 }
