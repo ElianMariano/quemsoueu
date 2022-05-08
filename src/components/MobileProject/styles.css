@@ -1,12 +1,13 @@
 div.mobile-project {
     height: 60vh;
     position: relative;
+    margin: 0;
     --mobile-project-rotation-degree: 16deg; /*Default value: 16deg*/
     --mobile-project-x-distance: 0vw; /*Default value: 0vw*/
 }
 
 div.mobile-project > img {
-    width: 20vw;
+    height: 50vh;
     position: absolute;
     margin: 2vh 3vw;
     padding: 0;

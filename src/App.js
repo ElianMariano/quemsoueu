@@ -5,6 +5,7 @@ import FloatingBar from './components/FloatingBar';
 import FixedBar from './components/FixedBar';
 import StripedBars from './components/StripedBars';
 import MobileProject from './components/MobileProject';
+import DesktopProject from './components/DesktopProject';
 import TechLevel from './components/TechLevel';
 
 import Python from './assets/logos/python.png'
@@ -21,6 +22,7 @@ function App() {
         <FixedBar/>
         <StripedBars/>
         <MobileProject/>
+        <DesktopProject/>
         {/* <TechLevel Image={Python} language="Python" level="Intermediário" />
         <TechLevel Image={Javascript} language="Javascript" level="Intermediário" />
         <TechLevel Image={Html} language="Html" level="Intermediário" />
