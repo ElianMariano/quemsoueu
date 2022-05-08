@@ -1,33 +1,13 @@
 import React from 'react';
 
-import PageDefault from './components/PageDefault';
-import FloatingBar from './components/FloatingBar';
-import FixedBar from './components/FixedBar';
-import StripedBars from './components/StripedBars';
-import MobileProject from './components/MobileProject';
-import DesktopProject from './components/DesktopProject';
-import TechLevel from './components/TechLevel';
-
-import Python from './assets/logos/python.png'
-import Javascript from './assets/logos/javascript.png'
-import Html from './assets/logos/html.png'
-import Css from './assets/logos/css.png'
+import Home from './pages/Home';
+import Router from './router';
 import './global.css';
 
 function App() {
   return (
     <>
-      <PageDefault>
-        <FloatingBar/>
-        <FixedBar/>
-        <StripedBars/>
-        <MobileProject/>
-        <DesktopProject/>
-        {/* <TechLevel Image={Python} language="Python" level="Intermediário" />
-        <TechLevel Image={Javascript} language="Javascript" level="Intermediário" />
-        <TechLevel Image={Html} language="Html" level="Intermediário" />
-        <TechLevel Image={Css} language="Css" level="Intermediário" /> */}
-      </PageDefault>
+      <Router />
     </>
   );
 }
