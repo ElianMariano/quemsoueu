@@ -1,16 +1,18 @@
-import React from 'react'
-import './styles.css'
+import React from 'react';
+import {Link} from 'react-router-dom';
+
+import './styles.css';
 
 function Header(){
     return (
         <header>
-            <h1>Quemsoueu</h1>
+            <Link to="/"><h1>Quemsoueu</h1></Link>
 
             <nav>
                 <ul>
-                    <li>Minha História</li>
-                    <li>Meus Interesses</li>
-                    <li>Minha Experiência</li>
+                    <li><Link to="/minha-historia">Minha História</Link></li>
+                    <li><Link to="/meus-interesses">Meus Interesses</Link></li>
+                    <li><Link to="/minha-experiencia">Minha Experiência</Link></li>
                 </ul>
             </nav>
         </header>

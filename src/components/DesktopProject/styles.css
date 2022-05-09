@@ -1,0 +1,59 @@
+div.desktop-project {
+    margin: 3vh 2vw;
+    padding: 0;
+}
+
+div.desktop-project > img {
+    height: 40vh;
+    margin: 0 3vw;
+}
+
+div.desktop-project > div.description {
+    float: right;
+    width: 45vw;
+    margin: 4vh 4vw;
+    padding: 0;
+}
+
+div.desktop-project > div.description > h2 {
+    font-family: 'Cambay', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin: 0;
+}
+
+div.desktop-project > div.description > p {
+    font-family: 'Cambay', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #6A6A6A;
+}
+
+div.desktop-project > div.description > p > strong {
+    color: black;
+}
+
+@media (max-width: 1040px){
+    div.desktop-project > img {
+        height: 40vh;
+        margin: 0 6vw;
+    }
+
+    div.desktop-project > div.description {
+        float: none;
+        width: 100vw;
+        padding-right: 10vw;
+    }
+
+    div.desktop-project > div.description > h2 {
+        align-self: center;
+        margin-left: 2vw;
+    }
+
+    div.desktop-project > div.description > p {
+        width: 95vh;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+}

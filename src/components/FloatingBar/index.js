@@ -1,23 +1,20 @@
-import React from 'react'
+import React from 'react';
 
-import './styles.css'
-import Pedestrians from '../../assets/pedestrians.jpg'
+import './styles.css';
 
-function FloatingBar(){
+function FloatingBar({Image, title, children}){
     return (
         <div className="floating-bar">
-            <img className='main-image' src={Pedestrians} alt="Imagem" />
+            <img src={Image} alt="Imagem" />
 
             <div className="main-bar"></div>
 
             <div className="bar"></div>
 
             <div className="main-text">
-                <h4>Titulo</h4>
+                <h4>{title}</h4>
 
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos tenetur ipsam fuga hic iure, <strong>repellendus pariatur eaque</strong> nostrum quibusdam? Natus illo odio deserunt cum iure expedita totam? Magni, voluptatem laboriosam. Assumenda, autem <strong>accusantium aliquam recusandae laudantium</strong> similique facilis? Voluptatum veniam, porro ea recusandae expedita fugit facilis quis nihil libero modi.
-                </p>
+                <p>{children}</p>
             </div>
         </div>
     )
