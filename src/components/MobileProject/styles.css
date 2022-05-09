@@ -11,6 +11,7 @@ div.mobile-project > img {
     position: absolute;
     margin: 2vh 3vw;
     padding: 0;
+    left: 11vw;
 }
 
 div.mobile-project > img:first-child {
@@ -21,15 +22,13 @@ div.mobile-project > img:first-child {
 div.mobile-project > img:nth-child(2) {
     left: calc(var(--mobile-project-x-distance) + 22vw);
     transform: rotate(var(--mobile-project-rotation-degree));
-    /* left: 11vw;
-    transform: rotate(0deg);
-    animation-name: phone;
-    animation-duration: 2s; */
 }
 
-div.mobile-project > img:nth-child(3) {
-    left: 11vw;
-}
+/* div.mobile-project > img:nth-child(3):hover {
+    left: 0vw;
+    transform: rotate(-16deg);
+    transition: left 2s, transform 2s;
+} */
 
 div.mobile-project > div.description {
     float: right;
@@ -58,14 +57,21 @@ div.mobile-project > div.description > p > strong {
     color: black;
 }
 
-/* @keyframes phone {
-    from {
-        left: 11vw;
-        transform: rotate(0deg);
+@media (max-width: 1040px){
+    div.mobile-project{
+        position: relative;
+        height: 110vh;
     }
-  
-    to {
-        left: 22vw;
-        transform: rotate(16deg);
+
+    div.mobile-project > img {
+        position: absolute;
+        left: 10vw;
     }
-} */
+
+    div.mobile-project > div.description {
+        position: absolute;
+        top: 52vh;
+        width: 90vw;
+    }
+
+}
