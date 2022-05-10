@@ -1,5 +1,4 @@
 .floating-bar {
-    width: 100%;
     position: relative;
     overflow: hidden;
     --floating-bar-skew: skew(-12deg);
@@ -9,7 +8,7 @@
 }
 
 .floating-bar > img {
-    height: 70vh;
+    width: 75vw;
 }
 
 .floating-bar > .main-bar {
@@ -36,8 +35,7 @@
 
 .floating-bar > .main-text {
     position: absolute;
-    font-size: 1em;
-    top: 24vh;
+    top: 32vh;
     right: 0;
     width: 30vw;
 }
@@ -45,7 +43,7 @@
 .floating-bar > .main-text > h4 {
     font-family: 'Cambay', Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.6vw;
     color: white;
     margin: 0;
     opacity: var(--floating-bat-text-opacity);
@@ -54,11 +52,17 @@
 .floating-bar > .main-text > p {
     font-family: 'Cambay', Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.2vw;
     color: white;
     opacity: var(--floating-bat-text-opacity);
 }
 
 .floating-bar > .main-text > p > strong {
     color: var(--color-dark-blue);
+}
+
+@media (max-width: 1040px) {
+    .floating-bar > .main-text {
+        top: 10vh;
+    }
 }

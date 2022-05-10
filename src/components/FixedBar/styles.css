@@ -1,6 +1,6 @@
 .fixed-bar {
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
     position: relative;
     overflow: hidden;
     --fixed-bar-x-axis: 0vw;
@@ -10,7 +10,7 @@
 }
 
 .fixed-bar > img {
-    height: 60vh;
+    width: 75vw;
     float: right;
 }
 
@@ -39,7 +39,6 @@
 
 .fixed-bar > .main-text {
     position: absolute;
-    font-size: 1em;
     top: 6vh;
     left: 0;
     width: 30vw;
@@ -50,7 +49,7 @@
     margin: 0;
     font-family: 'Cambay', Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.6vw;
     color: white;
     opacity: var(--fixed-bar-text-opacity);
 }
@@ -58,7 +57,7 @@
 .fixed-bar > .main-text > p {
     font-family: 'Cambay', Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.2vw;
     color: white;
     opacity: var(--fixed-bar-text-opacity);
 }

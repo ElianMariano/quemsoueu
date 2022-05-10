@@ -1,18 +1,23 @@
 div.desktop-project {
+    /* height: 60vh; */
+    position: relative;
     margin: 3vh 2vw;
     padding: 0;
+    margin-top: 10vh;
 }
 
 div.desktop-project > img {
-    height: 40vh;
+    width: 35vw;
     margin: 0 3vw;
 }
 
 div.desktop-project > div.description {
-    float: right;
     width: 45vw;
     margin: 4vh 4vw;
     padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 div.desktop-project > div.description > h2 {
@@ -35,15 +40,19 @@ div.desktop-project > div.description > p > strong {
 }
 
 @media (max-width: 1040px){
+    div.desktop-project {
+        position: static;
+    }
+
     div.desktop-project > img {
-        height: 40vh;
+        width: calc(100vw - 12vw);
         margin: 0 6vw;
     }
 
     div.desktop-project > div.description {
-        float: none;
-        width: 100vw;
+        width: calc(100vw - 20vw);
         padding-right: 10vw;
+        position: static;
     }
 
     div.desktop-project > div.description > h2 {
@@ -52,7 +61,6 @@ div.desktop-project > div.description > p > strong {
     }
 
     div.desktop-project > div.description > p {
-        width: 95vh;
         margin-left: 2vw;
         margin-right: 2vw;
     }
