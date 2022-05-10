@@ -18,3 +18,9 @@ Estes são os principais componentes que compõe o projeto como um todo, os úni
 **MobileProject:** Este componente recebe três imagens, um título e um texto. Tem como objetivo mostrar três telas dos aplicativos que já desenvolvi, em conjunto com um título e uma descrição.
 
 **DesktopProject:** O component _DesktopProject_ tem o objetivo informar sobre os projetos que desenvolvi que podem ser mostrados corretamente em uma tela de desktop. Este componente, leva uma imagem, um titulo e uma descricao.
+
+## Deploy contínuo com a Vercel
+Este projeto utiliza o Deploy contínuo na plataforma Vercel, ou seja, qualquer alteração na branch main do projeto é atualizada imediatamente na plataforma.
+
+## Google Analytics
+Foi instalada uma Tag do Google Analytics no projeto, possibilitando exibir relatório das páginas acessadas.
