@@ -28,12 +28,12 @@ footer > div > p + p {
 }
 
 footer > div:first-child {
-    margin-right: 25vw;
+    margin-right: 10vw;
     margin-left: 2vw;
 }
 
 footer > div:nth-child(3) {
-    margin-left: 25vw;
+    margin-left: 10vw;
 }
 
 footer > div:first-child > a > img {
@@ -45,7 +45,7 @@ footer > div:first-child > a + a {
     margin-left: 2vw;
 }
 
-@media (max-width: 1040px) {
+@media (max-width: 700px) {
     footer > div {
         display: block;
         width: calc(100vw - 40px);

@@ -1,4 +1,5 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import ReactGA from 'react-ga';
 
 import PageDefault from '../../components/PageDefault';
 import FixedBar from '../../components/FixedBar';
@@ -10,12 +11,16 @@ import Pedestrians from '../../assets/pedestrians.jpg';
 import Audience from '../../assets/audience.jpg';
 
 function Interests(){
+    useEffect(() => {
+        ReactGA.pageview(window.location.pathname + window.location.search);
+    }, [])
+
     return (
         <PageDefault>
             <FloatingBar
                 Image={Pedestrians}
                 title="Interesses pessoais">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos tenetur ipsam fuga hic iure, <strong>repellendus pariatur eaque</strong> nostrum quibusdam? Natus illo odio deserunt cum iure expedita totam? Magni, voluptatem laboriosam. Assumenda, autem <strong>accusantium aliquam recusandae laudantium</strong> similique facilis? Voluptatum veniam, porro ea recusandae expedita fugit facilis quis nihil libero modi.
+                Possuo diversos interesses em vários assuntos além de tecnologia, desde <strong>livros à música</strong>. Falando especificamente sobre música, embora eu não saiba tocar nenhum instrumento, durante grande parte da minha vida eu pude escutar músicas dos mais diversos gêneros, e a banda que mais gosto são os Beatles. Grande parte do que eu <strong>aprendi de inglês deve-se às séries</strong>, filmes e as músicas que eu costumo escutar ao longo desses anos todos.
             </FloatingBar>
             <StripedBars
                 Image={Audience}
