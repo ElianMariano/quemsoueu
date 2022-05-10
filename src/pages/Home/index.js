@@ -20,13 +20,8 @@ function Home(){
             <FixedBar
                 Image={Office}
                 title="Quem sou eu">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates doloribus dignissimos <strong>provident omnis id atque eos corporis</strong> assumenda optio aut, dolorum sint dolor, illum ipsum debitis! Rerum praesentium <strong>dignissimos quas non, atque nemo totam corrupti unde sunt</strong> illo fugit perspiciatis sequi iure. Iusto ullam amet mollitia eius ipsa <strong>officia voluptatibus dolores</strong> similique quaerat laboriosam doloremque numquam provident iste sit cupiditate, ratione necessitatibus, soluta odio magni excepturi id accusantium. Ea, vero!
+                    Meu nome é Elian, tenho 20 anos e atualmente curso o <strong>7º período de Sistemas de Informação no IFES</strong> (Instituto Federal do Espírito Santo). Me considero uma pessoa <strong>criativa e curiosa</strong> que está sempre em busca de <strong>novos desafios</strong>. Quando eu tinha 15 anos, eu conheci o mundo da programação e desde então, <strong>me apaixonei pela área de tecnologia</strong>. Durante esta época, eu <strong>estudava programação de maneira autodidata</strong> através da criação de diversos <strong>projetos pessoais</strong>. Ao entrar na faculdade em 2019, então com 17 anos de idade, pude <strong>aperfeiçoar os meus conhecimentos e aprender diversas coisas novas</strong> as quais agregarão muito na minha carreira profissional futuramente.
             </FixedBar>
-            <FloatingBar
-                Image={Pedestrians}
-                title="De onde eu venho">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos tenetur ipsam fuga hic iure, <strong>repellendus pariatur eaque</strong> nostrum quibusdam? Natus illo odio deserunt cum iure expedita totam? Magni, voluptatem laboriosam. Assumenda, autem <strong>accusantium aliquam recusandae laudantium</strong> similique facilis? Voluptatum veniam, porro ea recusandae expedita fugit facilis quis nihil libero modi.
-            </FloatingBar>
 
             <StripedBars
                 Image={Audience}

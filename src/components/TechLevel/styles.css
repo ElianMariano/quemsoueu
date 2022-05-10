@@ -16,7 +16,7 @@ div.tech-container > img {
 
 div.tech-container > h3.level {
     position: absolute;
-    margin: 0;
+    margin: 0 1vw;
     font-family: 'Cambay', Arial, Helvetica, sans-serif;
     font-size: 1.2em;
     color: rgb(41, 41, 41);
