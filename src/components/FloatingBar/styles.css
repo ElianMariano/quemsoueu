@@ -61,8 +61,16 @@
     color: var(--color-dark-blue);
 }
 
-@media (max-width: 1040px) {
+@media (max-width: 700px) {
     .floating-bar > .main-text {
         top: 10vh;
+    }
+
+    .floating-bar > .main-text > h4 {
+        font-size: 2.5vw;
+    }
+
+    .floating-bar > .main-text > p {
+        font-size: 1.5vw;
     }
 }

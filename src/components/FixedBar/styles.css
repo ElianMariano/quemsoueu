@@ -39,7 +39,7 @@
 
 .fixed-bar > .main-text {
     position: absolute;
-    top: 6vh;
+    top: 0;
     left: 0;
     width: 30vw;
     padding: 4vh 4vw;
@@ -64,4 +64,14 @@
 
 .fixed-bar > .main-text > p > strong {
     color: var(--color-dark-blue);
+}
+
+@media (max-width: 700px) {
+    .fixed-bar > .main-text > h4 {
+        font-size: 2.5vw;
+    }
+
+    .fixed-bar > .main-text > p {
+        font-size: 1.5vw;
+    }
 }

@@ -1,4 +1,5 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import ReactGA from 'react-ga';
 
 import PageDefault from '../../components/PageDefault';
 import FixedBar from '../../components/FixedBar';
@@ -15,6 +16,10 @@ import GoPlacesRight from '../../assets/screenshots/goplaces/goplaces-right.png'
 import Admf from '../../assets/screenshots/admf_desktop.jpg';
 
 function Experience(){
+    useEffect(() => {
+        ReactGA.pageview(window.location.pathname + window.location.search);
+    }, [])
+
     return (
         <PageDefault>
             <FloatingBar

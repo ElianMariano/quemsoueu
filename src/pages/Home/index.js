@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import ReactGA from 'react-ga';
 
 import PageDefault from '../../components/PageDefault';
 import FixedBar from '../../components/FixedBar';
@@ -10,6 +11,10 @@ import Pedestrians from '../../assets/pedestrians.jpg';
 import Audience from '../../assets/audience.jpg';
 
 function Home(){
+    useEffect(() => {
+        ReactGA.pageview(window.location.pathname + window.location.search);
+    }, [])
+
     return (
         <PageDefault>
             <FixedBar
