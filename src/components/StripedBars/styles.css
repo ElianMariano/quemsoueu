@@ -1,5 +1,5 @@
 .striped-bars {
-    width: 100%;
+    /* width: 100%; */
     position: relative;
     overflow: hidden;
     --striped-bars-x-axis: 0vw;
@@ -10,7 +10,8 @@
 }
 
 .striped-bars > img {
-    height: 70vh;
+    /* height: 70vh; */
+    width: 75vw;
 }
 
 .striped-bars > div:not(:last-child) {
@@ -43,7 +44,7 @@
     margin: 0;
     font-family: 'Cambay', Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.6vw;
     color: white;
     opacity: var(--striped-bars-text-opacity);
 }
@@ -51,7 +52,7 @@
 .striped-bars > div.main-text > p {
     font-family: 'Cambay', Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 1.05em;
+    font-size: 1.2vw;
     color: white;
     opacity: var(--striped-bars-text-opacity);
 }

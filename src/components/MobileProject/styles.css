@@ -1,6 +1,6 @@
 div.mobile-project {
     height: 60vh;
-    position: relative;
+    /* position: relative; */
     margin: 0;
     --mobile-project-rotation-degree: 16deg; /*Default value: 16deg*/
     --mobile-project-x-distance: 0vw; /*Default value: 0vw*/
@@ -33,6 +33,7 @@ div.mobile-project > img:nth-child(2) {
 div.mobile-project > div.description {
     float: right;
     width: 45vw;
+    height: 100%;
     margin: 4vh 4vw;
 }
 
@@ -48,7 +49,7 @@ div.mobile-project > div.description > h2 {
 div.mobile-project > div.description > p {
     font-family: 'Cambay', Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.4vw;
     color: #6A6A6A;
     opacity: var(--floating-bat-text-opacity);
 }
@@ -58,7 +59,7 @@ div.mobile-project > div.description > p > strong {
 }
 
 @media (max-width: 1040px){
-    div.mobile-project{
+    /* div.mobile-project{
         position: relative;
         height: 110vh;
     }
@@ -72,6 +73,14 @@ div.mobile-project > div.description > p > strong {
         position: absolute;
         top: 52vh;
         width: 90vw;
+    } */
+
+    div.mobile-project > div.description > p {
+        font-size: 3vw;
     }
 
+    div.mobile-project > div.description {
+        float: unset;
+        /* margin-top: 50vh; */
+    }
 }

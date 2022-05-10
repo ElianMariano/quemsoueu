@@ -1,7 +1,7 @@
 footer {
     background-color: var(--color-footer);
     width: calc(100% - 40px);
-    height: 15vh;
+    /* height: 15vh; */
     margin: 0;
     padding: 20px;
     /* position: fixed;
@@ -43,4 +43,20 @@ footer > div:first-child > a > img {
 
 footer > div:first-child > a + a {
     margin-left: 2vw;
+}
+
+@media (max-width: 1040px) {
+    footer > div {
+        display: block;
+        width: calc(100vw - 40px);
+        margin: 4vh 0;
+    }
+
+    footer > div:nth-child(1) {
+        margin-left: 0;
+    }
+
+    footer > div:nth-child(3) {
+        margin-left: 0;
+    }
 }
