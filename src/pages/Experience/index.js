@@ -9,6 +9,7 @@ import DesktopProject from '../../components/DesktopProject';
 import TechLevel from '../../components/TechLevel';
 
 import Office from '../../assets/office.jpg';
+import Image6 from '../../assets/images/image6.png'
 import Pedestrians from '../../assets/pedestrians.jpg';
 
 import GoPlacesLeft from '../../assets/screenshots/goplaces/goplaces-left.png';
@@ -49,7 +50,7 @@ function Experience(){
     return (
         <PageDefault>
             <FloatingBar
-                Image={Pedestrians}
+                Image={Image6}
                 title="Próximos Passos">
                 Pretendo continuar me desenvolvendo cada vez mais na área de tecnologia, principalmente em seguimentos que sejam relacionados com <strong>inteligência de dados</strong> e <strong>IA</strong>. Além disso, atualmente pretendo terminar o desenvolvimento do meu projeto de TCC com êxito, o qual se baseia em <strong>Deep Learning</strong> e tem como objetivo auxiliar os profissionais da área de fonoaudiologia à realizar a avaliação de seus pacientes, portanto <strong>acredito que este projeto seja de grande valia para o meu desenvolvimento profissional.</strong>
             </FloatingBar>
@@ -135,7 +136,7 @@ function Experience(){
             <DesktopProject
                 Image={Admf}
                 title="ADMF (Administração Financeira)">
-                <strong>ADMF</strong> é uma aplicação de <strong>FrontEnd</strong> que resolve formulas para a área de <strong>Administração Financeira</strong>. Esta aplicação foi desenvolvida em ReactJS em conjunto com <strong>TypeScript</strong>. Nesta aplicação, foram implementadas as principais práticas de responsividade para <strong>Desktop e Mobile</strong>.
+                <strong>ADMF</strong> é uma aplicação de <strong>FrontEnd</strong> que resolve formulas para a área de <strong>Administração Financeira</strong>. Esta aplicação foi desenvolvida em <strong>ReactJS</strong> em conjunto com <strong>TypeScript</strong>. Nesta aplicação, foram implementadas as principais práticas de responsividade para <strong>Desktop e Mobile</strong>.
             </DesktopProject>
 
             <DesktopProject
@@ -147,7 +148,7 @@ function Experience(){
             <DesktopProject
                 Image={Proffy}
                 title="Proffy">
-                O <strong>Proffy</strong> é uma plataforma que busca <strong>conectar</strong> professores particulares e alunos. Esta plataforma também foi desenvolvida na semana <strong>NextLevelWeek</strong> organizada pela empresa <strong>RocketSeat</strong>. Esta plataforma possui <strong>BackEnd, FrontEnd e Mobile</strong>, e foi desenvolvida utilizando TypeScript.
+                O <strong>Proffy</strong> é uma plataforma que busca <strong>conectar</strong> professores particulares e alunos. Esta plataforma também foi desenvolvida na semana <strong>NextLevelWeek</strong> organizada pela empresa <strong>RocketSeat</strong>. Esta plataforma possui <strong>BackEnd, FrontEnd e Mobile</strong>, e foi desenvolvida utilizando <strong>TypeScript</strong>.
             </DesktopProject>
         </PageDefault>
     )
