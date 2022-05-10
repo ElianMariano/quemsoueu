@@ -29,9 +29,7 @@ function Home(){
             <StripedBars
                 Image={Image2}
                 title="Como cheguei até aqui">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis deleniti eveniet nihil amet doloribus? <strong>Ipsum fugiat incidunt sunt laborum</strong> iure saepe, fugit culpa voluptate quae alias, aperiam vero iusto minima aliquid ullam <strong>numquam aut similique nobis eveniet</strong> natus blanditiis ea accusamus? Aliquam nulla beatae delectus aspernatur, nemo debitis culpa? Eveniet.
-
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, dolorem fugit deleniti accusamus suscipit libero ea maxime ut a perspiciatis nemo voluptas ipsum, excepturi inventore distinctio error, corrupti explicabo atque veritatis asperiores quis qui optio! <strong>Nemo quo incidunt vero fugiat voluptatibus</strong>, ipsam excepturi, ab aliquam reiciendis consectetur, nam nesciunt alias cumque sapiente placeat culpa asperiores tempora molestias voluptas reprehenderit magni?
+                Nasci e moro em <strong>Marataízes</strong> no <strong>Espírito Santo</strong>. Desde cedo me dediquei firmemente aos meus estudos, e ainda mais quando eu comecei a programar. Na programação em si, eu tive interesse em estudar diversas áreas, porém atualmente me interesso mais na área de programação <strong>Web e Mobile</strong>. Devido o interesse de aprender sobre a área de <strong>Inteligência artificial</strong>, eu pude iniciar o desenvolvimento do meu TCC me baseando fortemente no tema, mais especificamente na parte de <strong>Deep Learning.</strong>
             </StripedBars>
         </PageDefault>
     )
